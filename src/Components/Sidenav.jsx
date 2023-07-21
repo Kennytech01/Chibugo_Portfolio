@@ -18,7 +18,7 @@ export const Sidenav = () => {
         <AiOutlineMenu onClick={handleNav} className='absolute right-4 z-[99] top-4 md:hidden' size={20}/>
         {
             nav?(
-                <div className='flex flex-col items-center max-w-[1040px] m-auto p-4 py-16 h-screen fixed bg-stone-500/10 '>
+                <div className='flex flex-col items-center max-w-[1040px] m-auto p-4 py-16 h-screen fixed z-20 bg-stone-500/10 '>
                     <a 
                     href=""
                     className='btn btn-outline btn-primary w-2/3 m-2'
@@ -68,9 +68,9 @@ export const Sidenav = () => {
                     <p className=''>
                         <img src={myImage} alt="myImage" className=' w-24 h-24 rounded-full object-cover object-top' />
                     </p>
-                    <p className='p-2 text-lg capitalize font-bold text-stone-200'>ayoka cynthia chibugo</p>
+                    <p className='p-2 text-2xl capitalize font-bold text-stone-200'>ayoka cynthia chibugo</p>
                 </div>
-                <div className='py-4 text-center m-auto justify-center items-center flex flex-col text-primary-content capitalize '>
+                <div className='py-4 text-center m-auto justify-center items-center flex flex-col text-primary-content capitalize font-bold '>
                     <a 
                     href="http://"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
