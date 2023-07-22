@@ -20,32 +20,46 @@ export const Sidenav = () => {
             nav?(
                 <div className='flex flex-col items-center max-w-[1040px] m-auto p-4 py-16 h-screen fixed z-20 bg-stone-500/10 '>
                     <a 
-                    href=""
+                    href="#home"
                     className='btn btn-outline btn-primary w-2/3 m-2'
                     onClick={handleNav} >
                         <AiOutlineHome/>
                         <span className="pl-2">home</span>
                     </a>
                     <a 
-                    href=""
+                    href="#about"
                     className='btn btn-outline btn-primary w-2/3 m-2'
                     onClick={handleNav} >
                         <FcAbout/>
                         <span className="pl-2">about</span>
                     </a>
                     <a 
-                    href=""
+                    href="#experience"
                     className='btn btn-outline btn-primary w-2/3 m-2'
                     onClick={handleNav} >
                         <MdWorkOutline/>
-                        <span className="pl-2">portfolio</span>
+                        <span className="pl-2">experience</span>
+                    </a>
+                    <a 
+                    href="#services"
+                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    onClick={handleNav} >
+                        <FaLaptopCode/>
+                        <span className="pl-2">services</span>
                     </a>
                     <a 
                     href=""
                     className='btn btn-outline btn-primary w-2/3 m-2'
                     onClick={handleNav} >
-                        <FaLaptopCode/>
-                        <span className="pl-2">skills</span>
+                        <MdConnectWithoutContact/>
+                        <span className="pl-2">intro video</span>
+                    </a>
+                    <a 
+                    href=""
+                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    onClick={handleNav} >
+                        <MdConnectWithoutContact/>
+                        <span className="pl-2">testimonial</span>
                     </a>
                     <a 
                     href=""
@@ -68,36 +82,43 @@ export const Sidenav = () => {
                     <p className=''>
                         <img src={myImage} alt="myImage" className=' w-24 h-24 rounded-full object-cover object-top' />
                     </p>
-                    <p className='p-2 text-2xl capitalize font-bold text-stone-200'>ayoka cynthia chibugo</p>
+                    <p className='p-2 text-2xl capitalize font-extrabold text-stone-200'>ayoka cynthia chibugo</p>
                 </div>
                 <div className='py-4 text-center m-auto justify-center items-center flex flex-col text-primary-content capitalize font-bold '>
                     <a 
-                    href="http://"
+                    href="#home"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <AiOutlineHome className='mr-2' />
                         home
                     </a>
                     <a 
-                    href="http://"
+                    href="#about"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <FcAbout className='mr-2' />
                         about me
                     </a>
                     <a 
-                    href="http://"
+                    href="#experience"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <MdWorkOutline className='mr-2' />
-                        portfolio
+                        experience
+                    </a>
+                    <a 
+                    href="#services"
+                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    >
+                        <FaLaptopCode className='mr-2' />
+                        services
                     </a>
                     <a 
                     href="http://"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
-                        <FaLaptopCode className='mr-2' />
-                        skills
+                        <MdConnectWithoutContact className='mr-2' />
+                        testimonial
                     </a>
                     <a 
                     href="http://"
