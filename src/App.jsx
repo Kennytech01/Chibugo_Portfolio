@@ -4,6 +4,9 @@ import { Home } from "./Components/Home"
 import { About } from "./Components/About"
 import { Experience } from "./Components/Experience"
 import { Services } from "./Components/Services"
+import { IntroVideo } from "./Components/IntroVideo"
+import { Contact } from "./Components/Contact"
+
 
 export const App = () => {
   return (
@@ -13,6 +16,8 @@ export const App = () => {
       <About/>
       <Experience/>
       <Services/>
+      <IntroVideo/>
+      <Contact/>
     </div>
   )
 }

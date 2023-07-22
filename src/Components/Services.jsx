@@ -42,9 +42,9 @@ const data = [
 ]
 export const Services = () => {
   return (
-    <div id='services' className='md:ml-[25%] md:w-[75%] max-w-[1040px] py-16 h-[90vh]'>
+    <div id='services' className='md:ml-[25%] md:w-[75%] max-w-[1040px] py-16'>
         <div className='text-2xl text-center font-bold p-2 py-4 first-letter:text-3xl capitalize'>my services</div>
-        <div className='grid md:grid-cols-3 gap-4 sm:grid-cols-2 p-3 h-full'>
+        <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-2 p-3 h-full'>
             <div className='p-2 m-1'>
                 <div className='w-full text-center py-2'>
                     <p className='font-light p-2 text-start text-lg'>01</p>
@@ -63,7 +63,7 @@ export const Services = () => {
             </div>
             <div className='p-2 m-1'>
                 <div className='w-full text-center py-2'>
-                    <p className='font-light p-2 text-start text-lg'>01</p>
+                    <p className='font-light p-2 text-start text-lg'>03</p>
                     <p className='font-bold text-secondary p-2 text-lg'>Account Reconciliation/ finacial audit</p>
                     <p className='p-2 text-start'>Donec sodales euismod mollis. Phasellus varius lacus tincidunt, aliquet odio congue, mollis ligula. Suspendisse malesuada tellus</p>
                     <a href="#" className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>
@@ -71,7 +71,7 @@ export const Services = () => {
             </div>
             <div className='p-2 m-1'>
                 <div className='w-full text-center py-2'>
-                    <p className='font-light p-2 text-start text-lg'>01</p>
+                    <p className='font-light p-2 text-start text-lg'>04</p>
                     <p className='font-bold text-secondary p-2 text-lg'>Account Reconciliation/ finacial audit</p>
                     <p className='p-2 text-start'>Donec sodales euismod mollis. Phasellus varius lacus tincidunt, aliquet odio congue, mollis ligula. Suspendisse malesuada tellus</p>
                     <a href="#" className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>
@@ -79,7 +79,7 @@ export const Services = () => {
             </div>
             <div className='p-2 m-1'>
                 <div className='w-full text-center py-2'>
-                    <p className='font-light p-2 text-start text-lg'>01</p>
+                    <p className='font-light p-2 text-start text-lg'>05</p>
                     <p className='font-bold text-secondary p-2 text-lg'>Account Reconciliation/ finacial audit</p>
                     <p className='p-2 text-start'>Donec sodales euismod mollis. Phasellus varius lacus tincidunt, aliquet odio congue, mollis ligula. Suspendisse malesuada tellus</p>
                     <a href="#" className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>
@@ -87,7 +87,7 @@ export const Services = () => {
             </div>
             <div className='p-2 m-1'>
                 <div className='w-full text-center py-2'>
-                    <p className='font-light p-2 text-start text-lg'>01</p>
+                    <p className='font-light p-2 text-start text-lg'>06</p>
                     <p className='font-bold text-secondary p-2 text-lg'>Account Reconciliation/ finacial audit</p>
                     <p className='p-2 text-start'>Donec sodales euismod mollis. Phasellus varius lacus tincidunt, aliquet odio congue, mollis ligula. Suspendisse malesuada tellus</p>
                     <a href="#" className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>

@@ -5,7 +5,7 @@ import {MdWorkOutline, MdConnectWithoutContact}  from 'react-icons/md'
 import {FaLaptopCode} from 'react-icons/fa'
 import {FaFacebookF, FaTwitter, FaGithub, FaLinkedin} from 'react-icons/fa'
 import myImage from '../assets/images/myImage.png'
-
+import {TfiVideoClapper} from 'react-icons/tfi'
 
 export const Sidenav = () => {
     const [nav, setNav] = useState(false)
@@ -48,10 +48,10 @@ export const Sidenav = () => {
                         <span className="pl-2">services</span>
                     </a>
                     <a 
-                    href=""
+                    href="#video"
                     className='btn btn-outline btn-primary w-2/3 m-2'
                     onClick={handleNav} >
-                        <MdConnectWithoutContact/>
+                        <TfiVideoClapper/>
                         <span className="pl-2">intro video</span>
                     </a>
                     <a 
@@ -62,7 +62,7 @@ export const Sidenav = () => {
                         <span className="pl-2">testimonial</span>
                     </a>
                     <a 
-                    href=""
+                    href="#contact"
                     className='btn btn-outline btn-primary w-2/3 m-2'
                     onClick={handleNav} >
                         <MdConnectWithoutContact/>
@@ -114,6 +114,13 @@ export const Sidenav = () => {
                         services
                     </a>
                     <a 
+                    href="#video"
+                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    >
+                        <TfiVideoClapper className='mr-2' />
+                        intro video
+                    </a>
+                    <a 
                     href="http://"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
@@ -121,7 +128,7 @@ export const Sidenav = () => {
                         testimonial
                     </a>
                     <a 
-                    href="http://"
+                    href="#contact"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <MdConnectWithoutContact className='mr-2' />
