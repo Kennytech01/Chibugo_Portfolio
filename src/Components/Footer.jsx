@@ -3,7 +3,7 @@ import {FaFacebookF,FaTwitter,FaLinkedin,FaGithub} from 'react-icons/fa'
 
 export const Footer = () => {
   return (
-    <div className='md:hidden flex flex-col justify-center items-center max-w-[1040px] m-auto md:ml-[25%] p-4 py-10 bg-primary-content'>
+    <div className='md:hidden flex flex-col justify-center items-center max-w-[1040px]  m-auto md:ml-[25%] p-4 py-10 bg-primary-content'>
         <div className=' w-full md:w-1/2 flex flex-wrap justify-evenly items-center py-10 font-light text-stone-100 text-lg'>
             <a href="#main" className='cursor-pointer hover:scale-110 duration-200 ease-in capitalize'>home</a>
             <a href="#" className='cursor-pointer hover:scale-110 duration-200 ease-in capitalize'>cookie policy</a>

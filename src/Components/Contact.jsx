@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div id="contact" className="md:ml-[25%] md:w-[75%] py-10 max-w-[1040px]  mx-auto flex justify-center items-center p-4 ">
+    <div id="contact" className="md:ml-[25%] md:w-[75%] py-10 max-w-[1040px] min-w-max  mx-auto flex justify-center items-center p-4 ">
         <div class="">
             <div class="grid md:grid-cols-2 sm:gap-2 ">
                 {/* <!-- right --> */}

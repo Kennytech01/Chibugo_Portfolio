@@ -42,7 +42,7 @@ const data = [
 ]
 export const Services = () => {
   return (
-    <div id='services' className='md:ml-[25%] md:w-[75%] max-w-[1040px] py-16'>
+    <div id='services' className='md:ml-[25%] md:w-[75%] max-w-[1040px] min-w-max py-16'>
         <div className='text-2xl text-center font-bold p-2 py-4 first-letter:text-3xl capitalize'>my services</div>
         <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-2 p-3 h-full'>
             <div className='p-2 m-1'>
