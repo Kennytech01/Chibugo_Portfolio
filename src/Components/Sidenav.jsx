@@ -14,56 +14,56 @@ export const Sidenav = () => {
         setNav(!nav)
     }
   return (
-    <div className=''>
-        <AiOutlineMenu onClick={handleNav} className='absolute right-4 z-[99] top-4 md:hidden' size={20}/>
+    <div className='z-[]'>
+        <AiOutlineMenu onClick={handleNav} className='absolute right-4 z-[999] top-4 md:hidden text-white ' size={20}/>
         {
             nav?(
-                <div className='flex flex-col items-center max-w-[1040px] m-auto p-4 py-16  min-h-full fixed z-20 bg-stone-500/10 '>
+                <div onClick={handleNav} className='z-[99] flex flex-col items-center max-w-[1040px] m-auto p-4 py-16  min-h-full w-full fixed bg-stone-500/30 '>
                     <a 
                     href="#home"
-                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
                         <AiOutlineHome/>
                         <span className="pl-2">home</span>
                     </a>
                     <a 
                     href="#about"
-                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
                         <FcAbout/>
                         <span className="pl-2">about</span>
                     </a>
                     <a 
                     href="#experience"
-                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
                         <MdWorkOutline/>
                         <span className="pl-2">experience</span>
                     </a>
                     <a 
                     href="#services"
-                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
                         <FaLaptopCode/>
                         <span className="pl-2">services</span>
                     </a>
                     <a 
                     href="#video"
-                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
                         <TfiVideoClapper/>
                         <span className="pl-2">intro video</span>
                     </a>
                     <a 
                     href=""
-                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
                         <MdConnectWithoutContact/>
                         <span className="pl-2">testimonial</span>
                     </a>
                     <a 
                     href="#contact"
-                    className='btn btn-outline btn-primary w-2/3 m-2'
+                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
                         <MdConnectWithoutContact/>
                         <span className="pl-2">contact</span>
