@@ -18,7 +18,7 @@ export const Sidenav = () => {
         <AiOutlineMenu onClick={handleNav} className='absolute right-4 z-[99] top-4 md:hidden' size={20}/>
         {
             nav?(
-                <div className='flex flex-col items-center max-w-[1040px] m-auto p-4 py-16 h-screen fixed z-20 bg-stone-500/10 '>
+                <div className='flex flex-col items-center max-w-[1040px] m-auto p-4 py-16  min-h-full fixed z-20 bg-stone-500/10 '>
                     <a 
                     href="#home"
                     className='btn btn-outline btn-primary w-2/3 m-2'

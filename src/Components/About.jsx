@@ -42,7 +42,7 @@ export const About = () => {
                 </div>
             </div>
             {/* <!-- check out --> */}
-            <div class="flex justify-center min-h-max min-w-max items-center m-auto">
+            <div class="flex justify-center min-h-max  items-center m-auto">
                 <div class="mx-auto p-1 w-full">
                     <div class="grid md:grid-cols-3 grid-cols-1 gap-2 ">
                         {/* <!-- start --> */}
