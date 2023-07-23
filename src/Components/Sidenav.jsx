@@ -141,6 +141,9 @@ export const Sidenav = () => {
                     <FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/>
                     <FaGithub size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/>
                 </div>
+                <div class="p-2 text-primary-content">
+                  <p>Copyright © 2023 <br /> <span class="font-bold">Cynthia A. Chibugo</span> - All right reserved</p>
+                </div>
             </div>
         </div>
     </div>
