@@ -72,7 +72,7 @@ export const Sidenav = () => {
                         <span className="pl-2">contact</span>
                     </a>
                     <ul className='text-stone-200 flex flex-col justify-center items-center py-5 w-full'>
-                        <li className='py-3 font-bold capitalize'> let's connect<FaLink/></li>
+                        <li className='py-3 font-bold capitalize flex flex-wra justify-center items-center mx-2'> let's connect <MdConnectWithoutContact size={20}/></li>
                         <li className='flex flex-wrap justify-evenly min-w-full p-2'>
                             <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                             <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
