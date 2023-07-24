@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {AiOutlineMenu,AiOutlineHome} from 'react-icons/ai'
 import {MdWorkOutline, MdConnectWithoutContact}  from 'react-icons/md'
-import {FaFacebookF, FaLinkedin,FaWhatsapp,FaLaptopCode} from 'react-icons/fa'
+import {FaFacebookF, FaLinkedin,FaWhatsapp,FaLaptopCode,FaLink} from 'react-icons/fa'
 import myImage from '../assets/images/myImage.png'
 import {TfiVideoClapper} from 'react-icons/tfi'
 import {SiGmail} from 'react-icons/si'
@@ -72,7 +72,7 @@ export const Sidenav = () => {
                         <span className="pl-2">contact</span>
                     </a>
                     <ul className='text-stone-200 flex flex-col justify-center items-center py-5 w-full'>
-                        <li className='py-3 font-bold'>Follow Me</li>
+                        <li className='py-3 font-bold capitalize'> let's connect<FaLink/></li>
                         <li className='flex flex-wrap justify-evenly min-w-full p-2'>
                             <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                             <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
