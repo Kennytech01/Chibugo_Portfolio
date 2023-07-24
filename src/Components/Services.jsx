@@ -17,7 +17,7 @@ export const Services = () => {
                 <div className='w-full text-center py-2'>
                     <p className='font-light p-2 text-start text-lg'>01</p>
                     <p className='font-bold text-secondary p-2 text-lg capitalize'>Account Reconciliation/ audit</p>
-                    <p className='p-2 text-start' >I oversee all financial and accounting activities for the organization, including managing and overseeing financial processes and activities</p>
+                    <p className='p-2 text-start' >Oversee all financial and accounting activities for the organization, including managing and overseeing financial processes and activities</p>
                     {/* <div> */}
                         <a href='#services' onClick={()=> setOpenModal(true)} className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>
                         {/* <Modal open ={openModel} /> */}
