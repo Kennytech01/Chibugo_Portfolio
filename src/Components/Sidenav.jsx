@@ -122,13 +122,6 @@ export const Sidenav = () => {
                         <TfiVideoClapper className='mr-2' />
                         intro video
                     </a>
-                    {/* <a 
-                    href="http://"
-                    className='hidden flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
-                    >
-                        <MdConnectWithoutContact className='mr-2' />
-                        testimonial
-                    </a> */}
                     <a 
                     href="#contact"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'

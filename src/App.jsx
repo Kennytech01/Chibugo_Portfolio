@@ -7,6 +7,7 @@ import { Services } from "./Components/Services"
 import { IntroVideo } from "./Components/IntroVideo"
 import { Contact } from "./Components/Contact"
 import { Footer } from "./Components/Footer"
+import { Modal } from "./Components/Modal"
 
 export const App = () => {
   return (

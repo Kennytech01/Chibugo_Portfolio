@@ -23,7 +23,7 @@ const data = [
     },
     {
         year : `2012 - 2015 `,
-        company: "-Heming Safaris Africa",
+        company: "Heming Safaris Africa",
         position: "Account manager" ,
         job: "Job Description",
         role1: "Handle inquiries and requests from customers and address their needs",
@@ -34,7 +34,11 @@ const data = [
 export const Experience = () => {
   return (
     <div id='experience' className='md:ml-[25%] md:w-[75%] max-w-[1040px] p-4 py-10'>
-        <div className='text-2xl text-center font-bold p-2 py-4 first-letter:text-3xl'>Working Experience</div>
+        {/* <div className='text-2xl text-center font-bold p-2 py-4 first-letter:text-3xl'>Working Experience</div> */}
+        <ul class="capitalize py-2">
+            <li class="text-lg font-bold uppercase pl-5"> -know me more!</li>
+            <li class="font-extrabold text-4xl py-2 text-primary">my Working experience</li>
+        </ul>
         {
             data.map((item,id)=>(
                 <ExperienceItems

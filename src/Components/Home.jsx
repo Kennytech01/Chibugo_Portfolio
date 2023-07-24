@@ -33,12 +33,12 @@ export const Home = () => {
                     className='pl-2 text-stone- '
                 />
             </h2>
-            <div className='m-auto flex flex-wrap gap-2 text-stone-200  py-2 md:my-4 divide-x-2 items-center '>
-                <div className='flex flex-wrap justify-around gap-4 p w-full'>
+            <div className='m-auto grid md:grid-cols-2 grid-cols-1 w-full gap-2 text-stone-200  py-2 md:my-4 divide-x-2 items-center '>
+                <div className=' flex flex-wrap justify-around gap-4 m-1 '>
                     <a href="#services" className='btn btn-outline bg-stone-200 rounded-lg border-none duration-200 ease-in hover:scale-110 justify-center items-center'>what i do <LiaExternalLinkAltSolid size={20}/></a>
                     <a href="#contact" className='btn border-none bg-primary-focus text-stone-200 duration-200 ease-in hover:scale-110 rounded-lg justify-center items-center '>get in touch <MdConnectWithoutContact size={30}/></a>
                 </div>
-                <div className='p-2 text-primary font-bold md:text-lg overflow-x-scroll'>
+                <div className='m-1 text-primary font-bold md:text-lg overflow-auto p-2'>
                     <p className='p-1'>+234-7034798736</p>
                     <p className='p-1'>AyokaCynthia23@gmail.com</p>
                     <p className='p-1 capitalize'>owerri, imo sate. nigeria</p>

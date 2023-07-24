@@ -5,25 +5,25 @@ export const About = () => {
   return (
     <div id='about' className='md:ml-[25%] md:w-[75%] max-w-[1040px]'>
         <div class="p-4 py-16">
-            <div class=" flex md:flex-row flex-col justify-around ">
+            <div class=" flex md:flex-row flex-col justify-between gap-8 ">
                 {/* <!-- left --> */}
                 <div class=" p-1 m-1 md:w-[40rem]">
-                    <div class=" mx-auto py-4 text-center w-full">
+                    <div class=" mx-auto py-4 text-center w-full ">
                         <ul class="p-">
-                            <li class="uppercase p-1 font-bold">-Nice to meet you!</li>
+                            <li class="uppercase p-1 font-light ">-Nice to meet you!</li>
                             <li class="text-primary text-3xl py-5 font-extrabold capitalize">Cynthia A. Chibugo</li>
                             <li class="text-lg font-bold capitalize">Financial Accountant & Data analyst</li>
                         </ul>
-                        <div class="p-2 py-5">
-                            <button type="submit" id="openPortfolio"  class="btn btn-outline btn-primary mx-auto text-base-200 capitalize shadow-lg rounded-xl font-bold" >got a project?</button>
+                        <div class=" py-5 ">
+                            <a href="#contact"  class="text-stone-200 hover:text-primary p-3 bg-secondary hover:bg-secondary/10 hover:border mx-auto capitalize shadow-lg rounded-lg font-bold duration-200 ease-in hover:scale-110" >got a project ?</a>
                         </div>
                     </div>
                 </div>
                 {/* <!-- right --> */}
                 <div class="p-1 m-1">
                     <div>
-                        <p class="p-2 tracking-wide flex flex-wrap items-center"> <span class="font-bold ">Hello there!</span> My name is <a href="#" class="text-primary font-bold capitalize">Ayoka Cynthia Chibugo</a> I am a Financial Accountant & Data Analyst, and I'm very passionate and dedicated to my work.</p>
-                        <p class="p-2 tracking-wide">With over 15years experience as an Accountant and Data Analyst, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of Accounting,</p>
+                        <p class="p-2 tracking-wide items-center"> Hello there! My name is <a href="#about" class=" font-bold capitalize">Ayoka Cynthia Chibugo</a>. I am a Financial Accountant & Data Analyst, and I'm very passionate and dedicated to my work.</p>
+                        <p class="p-2 tracking-wide">With over 15years experience as an Accountant and Data Analyst, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of Accounting.</p>
                         <ul class="flex py-5 tracking-wide capitalize font-light overflow-auto">
                             <li class="px-2">
                                 <p href="#" class="font-extrabold">Born in</p>
