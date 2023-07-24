@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {AiOutlineMenu,AiOutlineHome} from 'react-icons/ai'
-import {FcAbout} from 'react-icons/fc'
 import {MdWorkOutline, MdConnectWithoutContact}  from 'react-icons/md'
-import {FaLaptopCode} from 'react-icons/fa'
-import {FaFacebookF, FaTwitter, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaFacebookF, FaLinkedin,FaWhatsapp,FaLaptopCode} from 'react-icons/fa'
 import myImage from '../assets/images/myImage.png'
 import {TfiVideoClapper} from 'react-icons/tfi'
 import {SiGmail} from 'react-icons/si'
@@ -24,13 +22,13 @@ export const Sidenav = () => {
 
   return (
     <div className='z-[]'>
-        <ul className='text-stone-200 bg-primary top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
+        <ul className='text-stone-200 bg-primary-focus top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
             <li className='font-bold text-lg'>Chibugo Cynthia A.</li>
             <li><AiOutlineMenu onClick={handleNav} className=' text-white ' size={20}/></li>
         </ul>
         {
             nav?(
-                <div onClick={handleNav} className='z-[99] flex flex-col items-center max-w-[1040px] m-auto p-4 py-16  min-h-full w-full fixed bg-black/90 '>
+                <div onClick={handleNav} className='z-[99] flex flex-col items-center max-w-[1040px] m-auto p-4 py-20  min-h-full w-full fixed bg-black/90 '>
                     <a 
                     href="#home"
                     className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
@@ -73,6 +71,15 @@ export const Sidenav = () => {
                         <MdConnectWithoutContact/>
                         <span className="pl-2">contact</span>
                     </a>
+                    <ul className='text-stone-200 flex flex-col justify-center items-center py-5 w-full'>
+                        <li className='py-3 font-bold'>Follow Me</li>
+                        <li className='flex flex-wrap justify-evenly min-w-full p-2'>
+                            <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                            <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                            <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                            <a href="http://"><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                        </li>
+                    </ul>
                 </div>
             )
             : (
@@ -104,13 +111,6 @@ export const Sidenav = () => {
                         <PiUserFocus className='mr-2' />
                         about me
                     </a>
-                    {/* <a 
-                    href="#experience"
-                    className=' hidden flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
-                    >
-                        <MdWorkOutline className='mr-2' />
-                        experience
-                    </a> */}
                     <a 
                     href="#services"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
@@ -137,6 +137,7 @@ export const Sidenav = () => {
                     <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="http://"><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                 </div>
                 <div class="p-2 py-3 text-primary-content ">
                   <p>Copyright © 2023 <span class="font-bold">Cynthia A. Chibugo</span> - All right reserved</p>

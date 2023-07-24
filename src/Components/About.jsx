@@ -15,7 +15,7 @@ export const About = () => {
                             <li class="text-lg font-bold capitalize">Financial Accountant & Data analyst</li>
                         </ul>
                         <div class=" py-5 ">
-                            <a href="#contact"  class="text-stone-200 hover:text-primary p-3 bg-secondary hover:bg-secondary/10 hover:border mx-auto capitalize shadow-lg rounded-lg font-bold duration-200 ease-in hover:scale-110" >got a project ?</a>
+                            <a href="#contact"  class=" btn btn-secondary text-stone-200 mx-auto capitalize shadow-lg rounded-lg font-bold duration-200 ease-in hover:scale-110" >got a project ?</a>
                         </div>
                     </div>
                 </div>
