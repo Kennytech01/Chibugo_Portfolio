@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {AiOutlineMenu,AiOutlineHome} from 'react-icons/ai'
 import {FcAbout} from 'react-icons/fc'
 import {MdWorkOutline, MdConnectWithoutContact}  from 'react-icons/md'
@@ -15,12 +15,20 @@ export const Sidenav = () => {
     const handleNav = () =>{
         setNav(!nav)
     }
+
+    useEffect(()=>{
+        const body = document.querySelector('body');
+        body.style.overflow = nav? 'hidden' : 'auto';
+    }, [nav])
   return (
     <div className='z-[]'>
-        <AiOutlineMenu onClick={handleNav} className='absolute right-4 z-[999] top-4 md:hidden text-white ' size={20}/>
+        <ul className='text-stone-200 bg-secondary top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
+            <li className='font-bold text-lg'>Chibugo Cynthia A.</li>
+            <li><AiOutlineMenu onClick={handleNav} className=' text-white ' size={20}/></li>
+        </ul>
         {
             nav?(
-                <div onClick={handleNav} className='z-[99] flex flex-col items-center max-w-[1040px] m-auto p-4 py-16  min-h-full w-full fixed bg-stone-500/30 '>
+                <div onClick={handleNav} className='z-[99] flex flex-col items-center max-w-[1040px] m-auto p-4 py-16  min-h-full w-full fixed bg-black/90 '>
                     <a 
                     href="#home"
                     className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '

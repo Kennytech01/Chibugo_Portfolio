@@ -9,7 +9,7 @@ export const Home = () => {
     <div id='home' className=' md:w-[75%] md:ml-[25%]  h-[100vh] flex justify-center items-center bg-no-repeat bg-top' style={{backgroundImage: `url(${myImage})`}}>
         <div className=" h-screen absolute top-0 md:left-[25%] left-0 right-0 bg-black/50"></div>
         <div className='z-[2] p-2 w-full m-2 flex flex-col justify-center items-center '>
-            <p className='text-stone-100 text-xl font-bold first-letter:text-3xl md:py-5 py-2'>Welcome Dear!</p>
+            <p id='wecome' className='text-stone-100 text-xl font-bold first-letter:text-3xl md:py-5 py-2'>Welcome Dear!</p>
             <h2 className="flex md:text-4xl text-xl py-5 font-extrabold text-primary  ">
                 I'm  
                 <TypeAnimation 
@@ -30,7 +30,7 @@ export const Home = () => {
                     wrapper="div"
                     speed={30}
                     repeat={Infinity}
-                    className='pl-2 text-stone- '
+                    className='pl-2'
                 />
             </h2>
             <div className='m-auto grid md:grid-cols-2 grid-cols-1 w-full gap-2 text-stone-200  py-2 md:my-4 divide-x-2 items-center '>

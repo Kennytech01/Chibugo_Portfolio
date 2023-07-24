@@ -11,7 +11,7 @@ import { Modal } from "./Components/Modal"
 
 export const App = () => {
   return (
-    <div className="">
+    <div className="body">
       <Sidenav/>
       <Home/>
       <About/>
