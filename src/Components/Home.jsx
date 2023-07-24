@@ -10,7 +10,7 @@ export const Home = () => {
         <div className=" h-screen absolute top-0 md:left-[25%] left-0 right-0 bg-black/50"></div>
         <div className='z-[2] p-2 w-full m-2 flex flex-col justify-center items-center '>
             <p className='text-stone-100 text-xl font-bold first-letter:text-3xl md:py-5 py-2'>Welcome Dear!</p>
-            <h2 className="flex md:text-4xl text-lg py-5 font-extrabold text-primary  ">
+            <h2 className="flex md:text-4xl text-xl py-5 font-extrabold text-primary  ">
                 I'm  
                 <TypeAnimation 
                     sequence={[
