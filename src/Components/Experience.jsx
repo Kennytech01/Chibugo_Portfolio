@@ -37,7 +37,7 @@ export const Experience = () => {
         {/* <div className='text-2xl text-center font-bold p-2 py-4 first-letter:text-3xl'>Working Experience</div> */}
         <ul class="capitalize py-2">
             <li class="text-lg font-bold uppercase pl-5"> -know me more!</li>
-            <li class="font-extrabold text-4xl py-2 text-primary">my Working experience</li>
+            <li class="font-extrabold md:text-4xl text-3xl py-2 text-primary">my Working experience</li>
         </ul>
         {
             data.map((item,id)=>(
