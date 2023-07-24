@@ -6,6 +6,8 @@ import {FaLaptopCode} from 'react-icons/fa'
 import {FaFacebookF, FaTwitter, FaGithub, FaLinkedin} from 'react-icons/fa'
 import myImage from '../assets/images/myImage.png'
 import {TfiVideoClapper} from 'react-icons/tfi'
+import {SiGmail} from 'react-icons/si'
+import {PiUserFocus} from'react-icons/pi'
 
 export const Sidenav = () => {
     const [nav, setNav] = useState(false)
@@ -30,7 +32,7 @@ export const Sidenav = () => {
                     href="#about"
                     className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
-                        <FcAbout/>
+                        <PiUserFocus/>
                         <span className="pl-2">about</span>
                     </a>
                     <a 
@@ -76,15 +78,15 @@ export const Sidenav = () => {
         }
 
         {/* sideNav  */}
-        <div className='w-1/4 fixed bg-primary max-w-[1040px] m-auto items-center justify-center h-[100vh] md:flex hidden'>
+        <div className='w-1/4 fixed bg-primary max-w-[1040px] m-auto items-center justify-center md:flex hidden h-full'>
             <div className='p-2'>
                 <div className='flex  flex-col justify-center items-center py-4 '>
                     <p className=''>
                         <img src={myImage} alt="myImage" className=' w-24 h-24 rounded-full object-cover object-top' />
                     </p>
-                    <p className='p-2 text-2xl capitalize font-extrabold text-stone-200'>ayoka cynthia chibugo</p>
+                    <p className='p-2 text-2xl capitalize font-black text-stone-200'>ayoka cynthia chibugo</p>
                 </div>
-                <div className='py-4 text-center m-auto justify-center items-center flex flex-col text-primary-content capitalize font-bold '>
+                <div className='py-2 text-center m-auto justify-center items-center flex flex-col capitalize font-bold '>
                     <a 
                     href="#home"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
@@ -94,18 +96,18 @@ export const Sidenav = () => {
                     </a>
                     <a 
                     href="#about"
-                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className=' flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
-                        <FcAbout className='mr-2' />
+                        <PiUserFocus className='mr-2' />
                         about me
                     </a>
-                    <a 
+                    {/* <a 
                     href="#experience"
-                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className=' hidden flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <MdWorkOutline className='mr-2' />
                         experience
-                    </a>
+                    </a> */}
                     <a 
                     href="#services"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
@@ -120,13 +122,13 @@ export const Sidenav = () => {
                         <TfiVideoClapper className='mr-2' />
                         intro video
                     </a>
-                    <a 
+                    {/* <a 
                     href="http://"
-                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='hidden flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <MdConnectWithoutContact className='mr-2' />
                         testimonial
-                    </a>
+                    </a> */}
                     <a 
                     href="#contact"
                     className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
@@ -135,14 +137,13 @@ export const Sidenav = () => {
                         contact
                     </a>
                 </div>
-                <div className="flex justify-evenly w-full text-stone-200 py-4">
-                    <FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/>
-                    <FaTwitter size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/>
-                    <FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/>
-                    <FaGithub size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/>
+                <div className="flex justify-evenly w-full text-stone-200 py-2">
+                    <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                 </div>
-                <div class="p-2 text-primary-content">
-                  <p>Copyright © 2023 <br /> <span class="font-bold">Cynthia A. Chibugo</span> - All right reserved</p>
+                <div class="p-2 py-3 text-primary-content ">
+                  <p>Copyright © 2023 <span class="font-bold">Cynthia A. Chibugo</span> - All right reserved</p>
                 </div>
             </div>
         </div>
