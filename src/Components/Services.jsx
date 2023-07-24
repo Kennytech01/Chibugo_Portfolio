@@ -28,7 +28,7 @@ export const Services = () => {
                 <div className='w-full text-center py-2'>
                     <p className='font-light p-2 text-start text-lg'>02</p>
                     <p className='font-bold text-secondary p-2 text-lg capitalize'>Data Entry/ financial Analysis</p>
-                    <p className='p-2 text-start' >I Compile, verify accuracy and sort information according to priorities to prepare source data for computer entry</p>
+                    <p className='p-2 text-start' >Compile, verify accuracy and sort information according to priorities to prepare source data for computer entry</p>
                     <a href="#" className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>
                 </div>
             </div>
@@ -36,7 +36,7 @@ export const Services = () => {
                 <div className='w-full text-center py-2'>
                     <p className='font-light p-2 text-start text-lg'>03</p>
                     <p className='font-bold text-secondary p-2 text-lg'>Team Management</p>
-                    <p className='p-2 text-start' >As a team manager, I creates guidelines, goals, checkpoints, and objectives for employees to improve productivity while...</p>
+                    <p className='p-2 text-start' >Create guidelines, goals, checkpoints, and objectives for employees to improve productivity while...</p>
                     <a href="#" className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>
                 </div>
             </div>
@@ -44,7 +44,7 @@ export const Services = () => {
                 <div className='w-full text-center py-2'>
                     <p className='font-light p-2 text-start text-lg'>04</p>
                     <p className='font-bold text-secondary p-2 text-lg'>Customer Relationship Management (CRM)</p>
-                    <p className='p-2 text-start' >I Build and maintain profitable relationships with key customers.Resolve customer complaints quickly and efficiently</p>
+                    <p className='p-2 text-start' >Build and maintain profitable relationships with key customers.Resolve customer complaints quickly and efficiently</p>
                     <a href="#" className='flex items-center border justify-center btn mx-5'>read more <FiExternalLink className='mx-1'/></a>
                 </div>
             </div>
