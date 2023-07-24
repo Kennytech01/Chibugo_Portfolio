@@ -19,10 +19,12 @@ export const Sidenav = () => {
     useEffect(()=>{
         const body = document.querySelector('body');
         body.style.overflow = nav? 'hidden' : 'auto';
-    }, [nav])
+    }, [nav]);
+
+
   return (
     <div className='z-[]'>
-        <ul className='text-stone-200 bg-secondary top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
+        <ul className='text-stone-200 bg-primary top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
             <li className='font-bold text-lg'>Chibugo Cynthia A.</li>
             <li><AiOutlineMenu onClick={handleNav} className=' text-white ' size={20}/></li>
         </ul>
