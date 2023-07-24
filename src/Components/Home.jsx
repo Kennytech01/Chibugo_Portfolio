@@ -6,7 +6,7 @@ import {MdConnectWithoutContact} from 'react-icons/md'
 
 export const Home = () => {
   return (
-    <div id='home' className=' md:w-[75%] md:ml-[25%]  h-[100vh] flex justify-center items-center bg-no-repeat bg-top' style={{backgroundImage: `url(${myImage})`}}>
+    <div id='home' className=' md:w-[75%] md:ml-[25%]  h-[100vh] flex justify-center items-center bg-no-repeat  bg-left-top ' style={{backgroundImage: `url(${myImage})`}}>
         <div className=" h-screen absolute top-0 md:left-[25%] left-0 right-0 bg-black/50"></div>
         <div className='z-[2] p-2 w-full m-2 flex flex-col justify-center items-center '>
             <p id='wecome' className='text-stone-100 text-xl font-bold first-letter:text-3xl md:py-5 py-2'>Welcome Dear!</p>

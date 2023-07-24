@@ -67,13 +67,6 @@ export const Sidenav = () => {
                         <span className="pl-2">intro video</span>
                     </a>
                     <a 
-                    href=""
-                    className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
-                    onClick={handleNav} >
-                        <MdConnectWithoutContact/>
-                        <span className="pl-2">testimonial</span>
-                    </a>
-                    <a 
                     href="#contact"
                     className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
