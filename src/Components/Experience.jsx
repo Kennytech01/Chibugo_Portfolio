@@ -34,7 +34,6 @@ const data = [
 export const Experience = () => {
   return (
     <div id='experience' className='md:ml-[25%] md:w-[75%] max-w-[1040px] p-4 py-10'>
-        {/* <div className='text-2xl text-center font-bold p-2 py-4 first-letter:text-3xl'>Working Experience</div> */}
         <ul class="capitalize py-2">
             <li class="text-lg font-bold uppercase pl-5"> -know me more!</li>
             <li class="font-extrabold md:text-4xl text-3xl py-2 text-primary">my Working experience</li>

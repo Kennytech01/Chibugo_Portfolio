@@ -43,9 +43,9 @@ export const Home = () => {
                     <a href="#contact" className='btn border-none bg-primary-focus text-stone-200 duration-200 ease-in hover:scale-110 rounded-lg justify-center items-center '>get in touch <MdConnectWithoutContact size={30}/></a>
                 </div>
                 <div className='m-1 text-primary font-bold md:text-lg p-2'>
-                    <a href="tel:+234-7034798736"target='_blank' className='flex items-center '><FaPhone size={20}  className='mx-2'/>+234-7034798736</a>
-                    <a href="mailto:Cynthiaayoka23@gmail.com" target="_blank" className="flex items-center "><SiGmail size={20}  className='mx-2'/>Cynthiaayoka23@gmail.com</a>
-                    <a href="#map" size={20} rel="noopener noreferrer" className="flex items-center capitalize"><PiMapPinLineThin size={20} className='mx-2'/>owerri, imo sate. nigeria</a>
+                    <a href="tel:+234-7034798736"target='_blank' className='flex items-center p-2 '><FaPhone size={20}  className='mx-2'/>+234-7034798736</a>
+                    <a href="mailto:Cynthiaayoka23@gmail.com" target="_blank" className="flex items-center p-2 "><SiGmail size={20}  className='mx-2'/>Cynthiaayoka23@gmail.com</a>
+                    <a href="#map" size={20} rel="noopener noreferrer" className="flex items-center capitalize p-2"><PiMapPinLineThin size={20} className='mx-2'/>owerri, imo sate. nigeria</a>
                 </div>
             </div>
         </div>
