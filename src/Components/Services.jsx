@@ -10,7 +10,7 @@ export const Services = () => {
     <div id='services' className='md:ml-[25%] md:w-[75%] max-w-[1040px] py-10'>
         <ul class="capitalize p-5">
             <li class="text-lg font-bold uppercase ">-services</li>
-            <li class="font-extrabold text-4xl py-2 text-primary">my services</li>
+            <li class="font-extrabold text-3xl py-2 text-primary">my specializations</li>
         </ul>
         <div className='grid lg:grid-cols-3 gap-4 sm:grid-cols-2 p-3 h-full'>
             <div className='p-2 m-1 '>

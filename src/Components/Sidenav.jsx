@@ -75,9 +75,9 @@ export const Sidenav = () => {
                         <li className='py-3 font-bold capitalize flex flex-wra justify-center items-center mx-2'> let's connect <MdConnectWithoutContact size={20}/></li>
                         <li className='flex flex-wrap justify-evenly min-w-full p-2'>
                             <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                            <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                            <a href="https://linkedin.com/in/cynthia-chibugo-88092b139" target='_blank'><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                             <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                            <a href="http://"><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                            <a href="http://wa.me/+2347034798736"target='_blank'><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                         </li>
                     </ul>
                 </div>
@@ -99,35 +99,35 @@ export const Sidenav = () => {
                 <div className='py-2 text-center m-auto justify-center items-center flex flex-col capitalize font-bold '>
                     <a 
                     href="#home"
-                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <AiOutlineHome className='mr-2' />
                         home
                     </a>
                     <a 
                     href="#about"
-                    className=' flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className=' flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <PiUserFocus className='mr-2' />
                         about me
                     </a>
                     <a 
                     href="#services"
-                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <FaLaptopCode className='mr-2' />
                         services
                     </a>
                     <a 
                     href="#video"
-                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <TfiVideoClapper className='mr-2' />
                         intro video
                     </a>
                     <a 
                     href="#contact"
-                    className='flex items-center hover:border w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <MdConnectWithoutContact className='mr-2' />
                         contact
@@ -135,9 +135,9 @@ export const Sidenav = () => {
                 </div>
                 <div className="flex justify-evenly w-full text-stone-200 py-2">
                     <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                    <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="https://linkedin.com/in/cynthia-chibugo-88092b139" target='_blank'><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                    <a href="http://"><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="http://wa.me/+2347034798736" target='_blank'><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                 </div>
                 <div class="p-2 py-3 text-primary-content ">
                   <p>Copyright © 2023 <span class="font-bold">Cynthia A. Chibugo</span> - All right reserved</p>

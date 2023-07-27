@@ -43,13 +43,7 @@ export const Experience = () => {
             data.map((item,id)=>(
                 <ExperienceItems
                 key={id}
-                year = {item.year}
-                company = {item.company}
-                position = {item.position}
-                job = {item.job}
-                role1 = {item.role1}
-                role2 = {item.role2}
-                role3 = {item.role3}
+                exp = {item}
                 />
             ))
         }

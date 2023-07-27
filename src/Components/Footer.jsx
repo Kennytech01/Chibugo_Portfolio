@@ -18,9 +18,9 @@ export const Footer = () => {
             <div>
                 <div className="flex md:justify-between justify-evenly w-full text-stone-200 py-4">
                     <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                    <a href="http://"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="https://linkedin.com/in/cynthia-chibugo-88092b139"><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                    <a href="http://"><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="http://wa.me/+2347034798736"><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                 </div>
             </div>
         </div>
