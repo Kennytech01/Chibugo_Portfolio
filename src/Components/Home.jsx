@@ -10,8 +10,8 @@ import {PiMapPinLineThin} from 'react-icons/pi'
 
 export const Home = () => {
   return (
-    <div id='home' className=' md:w-[75%] md:ml-[25%]  h-[100vh] flex justify-center items-center bg-no-repeat  bg-left-top ' style={{backgroundImage: `url(${myImage})`}}>
-        <div className=" h-screen absolute top-0 md:left-[25%] left-0 right-0 bg-black/50"></div>
+    <div id='home' className='relative md:w-[75%] md:ml-[25%]  h-[100vh] flex justify-center items-center bg-no-repeat  bg-left-top' style={{backgroundImage: `url(${myImage})`}}>
+        <div className="h-[100vh] absolute top-0 left-0 right-0 bg-black/50"></div>
         <div className='z-[2] p-2 w-full m-2 flex flex-col justify-center items-center '>
             <p id='wecome' className='text-stone-100 text-xl font-bold first-letter:text-3xl md:py-5 py-2'>Welcome Dear!</p>
             <h2 className="flex md:text-4xl text-xl py-5 font-extrabold text-primary  ">
@@ -42,7 +42,7 @@ export const Home = () => {
                     <a href="#services" className='btn btn-outline bg-stone-200 rounded-lg border-none duration-200 ease-in hover:scale-110 justify-center items-center'>what i do <LiaExternalLinkAltSolid size={20}/></a>
                     <a href="#contact" className='btn border-none bg-primary-focus text-stone-200 duration-200 ease-in hover:scale-110 rounded-lg justify-center items-center '>get in touch <MdConnectWithoutContact size={30}/></a>
                 </div>
-                <div className='m-1 text-primary font-bold md:text-lg p-2'>
+                <div className='m-1 text-primary font-bold md:text-lg'>
                     <a href="tel:+234-7034798736"target='_blank' className='flex items-center p-2 '><FaPhone size={20}  className='mx-2'/>+234-7034798736</a>
                     <a href="mailto:Cynthiaayoka23@gmail.com" target="_blank" className="flex items-center p-2 "><SiGmail size={20}  className='mx-2'/>Cynthiaayoka23@gmail.com</a>
                     <a href="#map" size={20} rel="noopener noreferrer" className="flex items-center capitalize p-2"><PiMapPinLineThin size={20} className='mx-2'/>owerri, imo sate. nigeria</a>

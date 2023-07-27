@@ -88,46 +88,46 @@ export const Sidenav = () => {
         }
 
         {/* sideNav  */}
-        <div className='w-1/4 fixed bg-primary max-w-[1040px] m-auto items-center justify-center md:flex hidden h-full'>
-            <div className='p-2'>
-                <div className='flex  flex-col justify-center items-center py-4 '>
+        <div className='w-1/4 fixed bg-primary max-w-[1040px] m-auto items-center justify-center md:flex flex-col hidden h-screen '>
+            <div className='py-2'>
+                <div className='flex flex-col justify-center items-center '>
                     <p className=''>
-                        <img src={myImage} alt="myImage" className=' w-24 h-24 rounded-full object-cover object-top' />
+                        <img src={myImage} alt="myImage" className='active w-24 h-24 rounded-full object-cover object-top' />
                     </p>
-                    <p className='p-2 text-2xl capitalize font-black text-stone-200'>ayoka cynthia chibugo</p>
+                    <p className='p-2 lg:text-xl  capitalize font-black text-stone-200'>ayoka cynthia chibugo</p>
                 </div>
                 <div className='py-2 text-center m-auto justify-center items-center flex flex-col capitalize font-bold '>
                     <a 
                     href="#home"
-                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <AiOutlineHome className='mr-2' />
                         home
                     </a>
                     <a 
                     href="#about"
-                    className=' flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className=' flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <PiUserFocus className='mr-2' />
                         about me
                     </a>
                     <a 
                     href="#services"
-                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <FaLaptopCode className='mr-2' />
                         services
                     </a>
                     <a 
                     href="#video"
-                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <TfiVideoClapper className='mr-2' />
                         intro video
                     </a>
                     <a 
                     href="#contact"
-                    className='flex items-center w-full p-2 m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
                     >
                         <MdConnectWithoutContact className='mr-2' />
                         contact
@@ -139,7 +139,7 @@ export const Sidenav = () => {
                     <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="http://wa.me/+2347034798736" target='_blank'><FaWhatsapp size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                 </div>
-                <div class="p-2 py-3 text-primary-content ">
+                <div class="p-2 py- text-primary-content ">
                   <p>Copyright © 2023 <span class="font-bold">Cynthia A. Chibugo</span> - All right reserved</p>
                 </div>
             </div>
