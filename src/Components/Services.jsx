@@ -50,11 +50,11 @@ export const Services = () => {
                 popUp.map((pop)=>{
                     return (
                         <div onClick={()=> handleClick(pop)} className='fixed flex items-center justify-center top-0 left-0 right-0 h-screen w-full bg-black/70 z-[999]'>
-                            <div className='bg-stone-200 w-1/2 h-auto relative shadow-lg  rounded'>
+                            <div className='bg-stone-200 w-2/3 h-auto relative shadow-lg  rounded'>
                                 <button onClick={()=>handleClick(pop)} className='text-right absolute right-2 top-2 text-xl font-bold border rounded-full'><FaTimes/></button>
                                 <div className='p-5 flex flex-col justify-center items-center m-auto' >
-                                    <img src={pop.Image} alt="" className='p-2 rounded-2xl ' />
-                                    <p className='p-5 font-light first-letter:text-xl first-letter:mr-1 first-letter:font-bold'>{pop.details}</p>
+                                    <img src={pop.Image} alt="" className='p-2 rounded-2xl w-[60%] h-[60%]' />
+                                    <p className='p-5 font-light first-letter:text-xl first-letter:mr-1 first-letter:font-bold '>{pop.details}</p>
                                 </div>
                             </div>
                         </div>
