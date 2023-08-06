@@ -13,7 +13,7 @@ const data = [
         role3: "Perform month end closing activities such as account reconciliation, revenue accounting, expense accounting, etc."
     },
     {
-        year : `2015-2020`,
+        year : `2014-2020`,
         company: "Avery Nigeria Limited",
         position: "credit control officer" ,
         job: "Job Description",
@@ -22,9 +22,9 @@ const data = [
         role3: "Develop and monitor a credit control system in collaboration with sales and marketing, finance and executive team members."
     },
     {
-        year : `2012 - 2015 `,
+        year : `2013 - 2014 `,
         company: "Heming Safaris Africa",
-        position: "Account manager" ,
+        position: "Marketing Executive" ,
         job: "Job Description",
         role1: "Handle inquiries and requests from customers and address their needs",
         role2: "Stay on top of accounts, making sure they receive services that are within their budget and meet their needs",

@@ -6,6 +6,7 @@ import myImage from '../assets/images/myImage.png'
 import {TfiVideoClapper} from 'react-icons/tfi'
 import {SiGmail} from 'react-icons/si'
 import {PiUserFocus} from'react-icons/pi'
+import {RiMailDownloadLine} from 'react-icons/ri'
 
 export const Sidenav = () => {
     const [nav, setNav] = useState(false)
@@ -22,6 +23,7 @@ export const Sidenav = () => {
 
   return (
     <div className='z-[]'>
+        {/* dropDown Menu */}
         <ul className='text-stone-200 bg-primary-focus top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
             <li className='font-bold text-lg'>Chibugo Cynthia A.</li>
             <li><AiOutlineMenu onClick={handleNav} className=' text-white ' size={20}/></li>
@@ -44,11 +46,12 @@ export const Sidenav = () => {
                         <span className="pl-2">about</span>
                     </a>
                     <a 
-                    href="#experience"
+                    href='https://docs.google.com/document/d/1dT-5kSd-0hqQBSQJcHj4C9OKruoUKl3D/edit?usp=sharing&ouid=106498312753727848708&rtpof=true&sd=true' 
+                    target='_blank' 
                     className='btn btn-outline bg-stone-300 hover:bg-stone-400 hover:text-white w-full m-2 '
                     onClick={handleNav} >
-                        <MdWorkOutline/>
-                        <span className="pl-2">experience</span>
+                        <RiMailDownloadLine/>
+                        <span className="pl-2">resume`</span>
                     </a>
                     <a 
                     href="#services"

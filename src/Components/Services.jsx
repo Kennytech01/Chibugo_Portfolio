@@ -22,7 +22,7 @@ export const Services = () => {
    }, [popUpToggle])
 
   return (
-    <div className='md:ml-[25%] md:w-[75%] max-w-[1040px] p-4 py-16'>
+    <div id='services' className='md:ml-[25%] md:w-[75%] max-w-[1040px] p-4 py-16'>
         <ul class="capitalize p-5">
             <li class="text-lg font-bold uppercase ">-services</li>
             <li class="font-extrabold md:text-4xl text-3xl py-2 text-primary">my specializations</li>
