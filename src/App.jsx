@@ -4,20 +4,19 @@ import { Home } from "./Components/Home"
 import { About } from "./Components/About"
 import { Experience } from "./Components/Experience"
 import { Services } from "./Components/Services"
-import { IntroVideo } from "./Components/IntroVideo"
 import { Contact } from "./Components/Contact"
 import { Footer } from "./Components/Footer"
-
+import { Navbar } from "./Components/Navbar"
 
 export const App = () => {
   return (
     <div className="body">
-      <Sidenav/>
+      {/* <Sidenav/> */}
+      <Navbar/>
       <Home/>
       <About/>
-      <Experience/>
       <Services/>
-      <IntroVideo/>
+      <Experience/>
       <Contact/>
       <Footer/>
     </div>

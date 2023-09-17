@@ -1,11 +1,17 @@
 import React from 'react'
-import { FaPhone } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 import {PiMapPinLineThin} from 'react-icons/pi'
+import {AiOutlineMenu,AiOutlineHome} from 'react-icons/ai'
+import {MdWorkOutline, MdConnectWithoutContact}  from 'react-icons/md'
+import {FaFacebookF, FaLinkedinIn,FaWhatsapp,FaLaptopCode,FaLink} from 'react-icons/fa'
+import myImage from '../assets/images/myImage.png'
+import {TfiVideoClapper} from 'react-icons/tfi'
+import {PiUserFocus} from'react-icons/pi'
+import {RiMailDownloadLine} from 'react-icons/ri'
 
 export const Contact = () => {
   return (
-    <div id="contact" className="md:ml-[25%] md:w-[75%] py-10 max-w-[1040px] mx-auto flex justify-center items-center p-4 ">
+    <div id="contact" className="py-16 sm:mx-10 flex justify-center items-center p-4 ">
         <div class="">
             <div class="grid md:grid-cols-2 sm:gap-2 ">
                 {/* <!-- right --> */}
@@ -16,10 +22,13 @@ export const Contact = () => {
                             <li class="font-extrabold text-4xl py-2 text-primary">get in touch</li>
                         </ul>
                         <p class="py-2 tracking-wide">I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime at 24/7</p>
-                        <div class="capitalize my-2 font-bold text-secondary relative border-l-2 border-primary">
-                            <a href="tel:+234-7034798736"target='_blank' className='flex items-center  p-2'><FaPhone className='mx-2'/>+234-7034798736</a>
-                            <a href="mailto:Cynthiaayoka23@gmail.com" target="_blank" className="flex items-center  p-2"><SiGmail className='mx-2'/>Cynthiaayoka23@gmail.com</a>
-                            <a href="#map" rel="noopener noreferrer" className="flex items-center capitalize p-2"><PiMapPinLineThin className='mx-2'/>owerri, imo sate. nigeria</a>
+                        <div className='p-3'>
+                            <p className="flex text-primary">
+                                <a href="http://"><FaFacebookF size={30} className="text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                                <a href="https://linkedin.com/in/cynthia-chibugo-88092b139" target='_blank'><FaLinkedinIn size={30} className="mx-3 text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                                <a href="mailto:"><SiGmail size={30} className="mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                                <a href="http://wa.me/+2347034798736" target='_blank'><FaWhatsapp size={30} className="text-[#319852] mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -27,16 +36,17 @@ export const Contact = () => {
                 <div class=" md:w-full">
                     <form action="https://getform.io/f/0d3fb5b7-3d81-4881-94b8-74a0a4de2917" method="POST" encType='multipart/form-data'class="py-2 capitalize ">
                         <div class="my-3">
-                            <input type="text" onfocus="this.value = '' " placeholder="enter your name:"  class="rounded-lg bg-[#ffff] bg-opacity-40 input  w-full" />
+                            <input type="text" onfocus="this.value = '' " placeholder="Enter your name:"  class="p-2 outline-none bg-white text-gray-dark rounded-lg  w-full" />
                         </div>
                         <div class="my-3">
-                            <input type="email" onfocus="this.value = '' " placeholder="your email:" class="rounded-lg bg-[#ffff] bg-opacity-40 input w-full " />
+                            <input type="email" onfocus="this.value = '' " placeholder="Your email:" class="p-2 outline-none bg-white text-gray-dark rounded-lg w-full " />
                         </div>
                         <div class="my-3">
-                            <textarea class="rounded-lg bg-[#ffff] bg-opacity-40 textarea w-full h-[10rem] text-lg " placeholder="write something:"></textarea>
+                            <textarea class="rounded-lg bg-[#ffff] outline-none bg-opacity-40 textarea w-full h-[10rem] text-lg p-2 " placeholder="write something:"></textarea>
                         </div>
-                        <div class="my-3">
-                            <button type="submit" value="send" class="rounded-lg btn btn-outline font-bold w-full btn-secondary">Send now</button>
+                        <div className='flex items-center justify-center group decoration-4 relative py-4 font-bold m-4 h-14 '>
+                            <button type="submit" value="send" class="rounded-full p-3 font-bold w-full text-white z-20 ">Send now</button>
+                            <span className='absolute group-hover:rounded-full rounded-l-full md:h-full h-2/3 sm:w-40 w-20 transition-all group-hover:w-full -left-2 bg-primary text-secondary z-10 shadow-lg duration-700'></span>
                         </div>
                     </form>
                 </div>

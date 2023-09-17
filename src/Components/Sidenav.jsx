@@ -22,9 +22,9 @@ export const Sidenav = () => {
 
 
   return (
-    <div className='z-[]'>
+    <div className='z-[] hidden'>
         {/* dropDown Menu */}
-        <ul className='text-stone-200 bg-primary-focus top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
+        <ul className='text-secondary bg-primary-focus top-0 md:hidden fixed z-[999] flex flex-wrap justify-between p-4 items-center w-full'>
             <li className='font-bold text-lg'>Chibugo Cynthia A.</li>
             <li><AiOutlineMenu onClick={handleNav} className=' text-white ' size={20}/></li>
         </ul>
@@ -97,46 +97,46 @@ export const Sidenav = () => {
                     <p className=''>
                         <img src={myImage} alt="myImage" className='active w-24 h-24 rounded-full object-cover object-top' />
                     </p>
-                    <p className='p-2 lg:text-xl  capitalize font-black text-stone-200'>ayoka cynthia chibugo</p>
+                    <p className='p-2 lg:text-xl  capitalize font-black text-secondary'>ayoka cynthia chibugo</p>
                 </div>
-                <div className='py-2 text-center m-auto justify-center items-center flex flex-col capitalize font-bold '>
+                <div className='py-2 text-primary-focus text-center m-auto justify-center items-center flex flex-col capitalize font-bold '>
                     <a 
                     href="#home"
-                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-secondary transition-all duration-500 ease-in hover:110'
                     >
                         <AiOutlineHome className='mr-2' />
                         home
                     </a>
                     <a 
                     href="#about"
-                    className=' flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className=' flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-secondary transition-all duration-500 ease-in hover:110'
                     >
                         <PiUserFocus className='mr-2' />
                         about me
                     </a>
                     <a 
                     href="#services"
-                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-secondary transition-all duration-500 ease-in hover:110'
                     >
                         <FaLaptopCode className='mr-2' />
                         services
                     </a>
                     <a 
                     href="#video"
-                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-secondary transition-all duration-500 ease-in hover:110'
                     >
                         <TfiVideoClapper className='mr-2' />
                         intro video
                     </a>
                     <a 
                     href="#contact"
-                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-stone-200 duration-200 ease-in hover:110'
+                    className='flex items-center w-full p-2 lg:m-2 justify-center rounded-full hover:bg-secondary transition-all duration-500 ease-in hover:110'
                     >
                         <MdConnectWithoutContact className='mr-2' />
                         contact
                     </a>
                 </div>
-                <div className="flex justify-evenly w-full text-stone-200 py-2">
+                <div className="flex justify-evenly w-full text-secondary py-2">
                     <a href="http://"><FaFacebookF size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="https://linkedin.com/in/cynthia-chibugo-88092b139" target='_blank'><FaLinkedin size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="mailto:"><SiGmail size={20} className=" hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
