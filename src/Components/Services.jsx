@@ -3,7 +3,7 @@ import {FiExternalLink} from 'react-icons/fi'
 import services from './../assets/images/services.jpg'
 import { ServiceData } from './ServiceData' 
 import myImage from './../assets/images/myImage.png'
-import {FaTimes} from 'react-icons/fa'
+import {LiaTimesSolid} from 'react-icons/lia'
 import AccountReconciliation from './../assets/images/AccountReconciliation.jpeg'
 
 export const Services = () => {
@@ -48,9 +48,9 @@ export const Services = () => {
                 popUp.map((pop)=>{
                     return (
                         <div className='fixed flex items-center justify-center top-0 left-0 right-0 h-screen w-full z-[99]'>
-                            <div className='fixed flex items-center justify-center top-0 left-0 right-0 h-full w-full -z-[99] bg-[#1f2937]/60'></div>
-                            <div className='bg-stone-200 md:w-2/3 w-4/5  h-auto relative shadow-lg  rounded bg-white overflow-y-auto'>
-                                <button onClick={()=>handleClick(pop)} className='text-right absolute right-2 top-2 text-xl font-bold border rounded-full'><FaTimes/></button>
+                            <div className='fixed flex items-center justify-center top-0 left-0 right-0 h-full w-full -z-[99] bg-[#1f2937]/70'></div>
+                            <div className='md:w-2/3 w-4/5  h-auto relative shadow-lg  rounded bg-white overflow-y-auto'>
+                                <button onClick={()=>handleClick(pop)} className='text-right absolute right-2 top-2 text-xl font-bold border rounded-full'><LiaTimesSolid/></button>
                                 <div className='p-5 flex flex-col justify-between items-center m-auto h-96' >
                                     <p className='h-1/2 w-full '>
                                         <img src={pop.Image} alt="" className='p-2 rounded-2xl h-full w-full object-contain' />

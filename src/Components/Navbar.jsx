@@ -61,7 +61,7 @@ export const Navbar = () => {
                 {
                     mobile && (
                         <div  className='sm:w-2/4 w-3/4 fixed shadow-lg right-0 md-right-0 top-0 h-full z-[999] duration-500 transition-all'>
-                            <div onClick={handleMobile} className='bg-[#1f2937]/30  fixed top-0 left-0 right-0 h-full w-full duration-500 transition-all'></div>
+                            <div onClick={handleMobile} className='bg-[#1f2937]/70  fixed top-0 left-0 right-0 h-full w-full duration-500 transition-all'></div>
                             <div className='relative bg-white h-full overflow-y-scroll'>
                                 <div onClick={handleMobile} className='flex p-5 justify-center items-center duration-700 transition-all'>
                                     <BsArrowRightCircle size={30} className='animate-pulse text-gray'/>
