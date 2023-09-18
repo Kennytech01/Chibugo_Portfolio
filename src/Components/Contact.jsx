@@ -11,7 +11,7 @@ import {RiMailDownloadLine} from 'react-icons/ri'
 
 export const Contact = () => {
   return (
-    <div id="contact" className="py-16 sm:mx-10 flex justify-center items-center p-4 ">
+    <div id="contact" className="md:py-16 sm:mx-10 flex justify-center items-center p-4 ">
         <div class="">
             <div class="grid md:grid-cols-2 sm:gap-2 ">
                 {/* <!-- right --> */}

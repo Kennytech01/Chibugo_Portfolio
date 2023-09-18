@@ -10,7 +10,7 @@ export const About = () => {
     const [time, setTime] = useState(0)
   return (
     <div id='about' className='sm:mx-10 mx-'>
-        <div class="p-4 py-20">
+        <div class="p-4 md:py-20">
             <ul class="capitalize p-3">
                 <li class="text-lg font-bold uppercase ">-Nice to meet you!</li>
                 <li class="font-extrabold text-4xl py-2 text-primary">About me</li>

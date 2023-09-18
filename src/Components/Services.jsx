@@ -36,7 +36,7 @@ export const Services = () => {
                             <p className='font-bold text-[#314198] p-2 text-lg capitalize'>{service.title}</p>
                             <p className='p-2 px-4 text-gray-dark'>{service.duty}</p>
                             <div className='py-3'>
-                                <button onClick={()=>handleClick(service)} className='hover:scale-110 duration-500 transition-all flex items-center justify-center bg-primary text-secondary p-2 rounded-2xl mx-5 capitalize font-bold'>{service.link} <FiExternalLink className='mx-1'/></button>
+                                <button onClick={()=>handleClick(service)} className='hover:scale-110 duration-500 transition-all flex items-center justify-center bg-primary text-secondary p-2 rounded-full mx-5 capitalize font-bold'>{service.link} <FiExternalLink className='mx-1'/></button>
                             </div>
                         </div>
                     )
