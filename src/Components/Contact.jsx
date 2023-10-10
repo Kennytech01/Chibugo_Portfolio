@@ -13,7 +13,7 @@ export const Contact = () => {
       },[])
 
   return (
-    <div data-aos = "fade-left" id="contact" className="md:py-16 sm:mx-10 flex justify-center items-center p-4 ">
+    <div data-aos = "fade-up" id="contact" className="md:py-16 sm:mx-10 flex justify-center items-center p-4 ">
         <div class="">
             <div class="grid md:grid-cols-2 sm:gap-2 ">
                 {/* <!-- right --> */}
