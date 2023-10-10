@@ -1,17 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import myImage from '../assets/images/myImage.png'
 import { TypeAnimation } from 'react-type-animation'
 import {LiaExternalLinkAltSolid} from 'react-icons/lia'
 import {IoDocumentAttachOutline} from 'react-icons/io5'
-
+import AOS from "aos"
+import "aos/dist/aos.css";
 
 
 export const Home = () => {
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1500
+        })    
+      },[])
+
   return (
     <div id='home' className='flex justify-center items-center mt-20 pt-20'>
-        <div className='grid md:grid-cols-2 grid-cols-1 w-full sm:p-10 p-5'>
+        <div  className='grid md:grid-cols-2 grid-cols-1 w-full sm:p-10 p-5'>
             {/* left-side */}
-            <div className=' flex flex-col justify-center m-2'>
+            <div data-aos="fade-up" className=' flex flex-col justify-center m-2'>
                 <p id='wecome' className='text-[#314198] text-xl font-bold first-letter:text-3xl md:py-5 py-2 animate-pulse'>hi there!</p>
                 <h1 className="flex flex-wrap py-5 lg:text-4xl md:text-lg text-xl font-bold text-primary">
                     I'm 
@@ -51,7 +59,7 @@ export const Home = () => {
                 </div>
             </div>
             {/* right-side(image) */}
-            <div className='hidden md:flex justify-center items-center m-2'>
+            <div data-aos="zoom-in" className='hidden md:flex justify-center items-center m-2'>
                 <p className=''>
                     <img src={myImage} alt="myImage" className='w-[28rem] h-[28rem] rounded-full object-cover object-top border-8 border-primary/30' />
                 </p>

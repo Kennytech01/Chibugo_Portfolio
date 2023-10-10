@@ -1,17 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { SiGmail } from 'react-icons/si'
-import {PiMapPinLineThin} from 'react-icons/pi'
-import {AiOutlineMenu,AiOutlineHome} from 'react-icons/ai'
-import {MdWorkOutline, MdConnectWithoutContact}  from 'react-icons/md'
 import {FaFacebookF, FaLinkedinIn,FaWhatsapp,FaLaptopCode,FaLink} from 'react-icons/fa'
-import myImage from '../assets/images/myImage.png'
-import {TfiVideoClapper} from 'react-icons/tfi'
-import {PiUserFocus} from'react-icons/pi'
-import {RiMailDownloadLine} from 'react-icons/ri'
+import AOS from "aos"
+import "aos/dist/aos.css";
+
 
 export const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1500
+        })    
+      },[])
+
   return (
-    <div id="contact" className="md:py-16 sm:mx-10 flex justify-center items-center p-4 ">
+    <div data-aos = "fade-left" id="contact" className="md:py-16 sm:mx-10 flex justify-center items-center p-4 ">
         <div class="">
             <div class="grid md:grid-cols-2 sm:gap-2 ">
                 {/* <!-- right --> */}
@@ -33,7 +35,7 @@ export const Contact = () => {
                     </div>
                 </div>
                 {/* <!-- left --> */}
-                <div class=" md:w-full">
+                {/* <div class=" md:w-full">
                     <form action="https://getform.io/f/0d3fb5b7-3d81-4881-94b8-74a0a4de2917" method="POST" encType='multipart/form-data'class="py-2 capitalize ">
                         <div class="my-3">
                             <input type="text" onfocus="this.value = '' " placeholder="Enter your name:"  class="p-2 outline-none bg-white text-gray-dark rounded-lg  w-full" />
@@ -49,7 +51,7 @@ export const Contact = () => {
                             <span className='absolute group-hover:rounded-full rounded-l-full md:h-full h-2/3 sm:w-40 w-20 transition-all group-hover:w-full -left-2 bg-primary text-secondary z-10 shadow-lg duration-700'></span>
                         </div>
                     </form>
-                </div>
+                </div> */}
             </div>
             {/* map  */}
            <div id='map' class="relative h-96 w-full mx-auto py-10">

@@ -1,22 +1,31 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FaGooglePlusG} from 'react-icons/fa'
 import { BiPhoneCall } from 'react-icons/bi'
 import {GoLocation} from 'react-icons/go'
 import {FaFacebookF, FaLinkedinIn,FaWhatsapp} from 'react-icons/fa'
 import {SiGmail} from 'react-icons/si'
 import introVideo from '../assets/video/introVideo.mp4'
+import AOS from "aos"
+import "aos/dist/aos.css";
 
 export const About = () => {
     const [time, setTime] = useState(0)
+
+    useEffect(() => {
+        AOS.init({
+          duration: 1500
+        })    
+      },[])
+
   return (
-    <div id='about' className='sm:mx-10 mx-'>
+    <div  id='about' className='sm:mx-10 mx-'>
         <div class="p-4 md:py-20">
             <ul class="capitalize p-3">
                 <li class="text-lg font-bold uppercase ">-Nice to meet you!</li>
                 <li class="font-extrabold text-4xl py-2 text-primary">About me</li>
             </ul>
             <div id="video" class="  py-16 p-4 ">
-                <div className='w-full flex justify-center items-center h-80 '>
+                <div data-aos = 'zoom-in' className='w-full flex justify-center items-center h-80 '>
                  <video src={introVideo} className=' h-full lg:w-1/2 w-full bg-white' controls/>
                 </div>
             </div>
@@ -40,21 +49,21 @@ export const About = () => {
                 <div class="mx-auto p-1 w-full">
                     <div class="grid md:grid-cols-3 grid-cols-1 gap-2 ">
                         {/* <!-- start --> */}
-                        <div class="h-40 m-1 items-center justify-center flex text-secondary bg-primary rounded-lg cursor-pointer">
+                        <div data-aos = "fade-left" class="h-40 m-1 items-center justify-center flex text-secondary bg-primary rounded-lg cursor-pointer">
                             <div class="text-center mx-auto">
                                 <p class="font-extrabold text-5xl">15+</p>
                                 <p class="uppercase py-1">year of experience</p>
                             </div>
                         </div>
                         {/* <!-- middle --> */}
-                        <div class="h-40 m-1 items-center justify-center flex rounded-lg border cursor-pointer">
+                        <div data-aos = "flip-left" class="h-40 m-1 items-center justify-center flex rounded-lg border cursor-pointer">
                             <div class="text-center mx-auto text-[#314198]">
                                 <p class="font-extrabold text-5xl">50+</p>
                                 <p class="uppercase py-1">completed projects</p>
                             </div>
                         </div>
                         {/* <!-- end --> */}
-                        <div class="h-40 m-1 items-center justify-center flex bg-[#acab93]/30 text-gray-dark rounded-lg cursor-pointer">
+                        <div data-aos = "flip-right" class="h-40 m-1 items-center justify-center flex bg-[#acab93]/30 text-gray-dark rounded-lg cursor-pointer">
                             <div class="text-center mx-auto">
                                 <p class="font-extrabold text-5xl">30+</p>
                                 <p class="uppercase py-1">happy clients</p>

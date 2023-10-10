@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { ExperienceItems } from './ExperienceItems'
-
+import AOS from "aos"
+import "aos/dist/aos.css";
 
 const data = [
     {
@@ -32,8 +33,13 @@ const data = [
     }
 ]
 export const Experience = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 1500
+        })    
+      },[])
   return (
-    <div id='experience' className='sm:mx-10 p-4 py-20'>
+    <div data-aos ="fade-right" id='experience' className='sm:mx-10 p-4 py-20'>
         <ul class="capitalize py-2">
             <li class="text-lg font-bold uppercase pl-5"> -know me more!</li>
             <li class="font-extrabold md:text-4xl text-3xl py-2 text-primary">my Working experience</li>

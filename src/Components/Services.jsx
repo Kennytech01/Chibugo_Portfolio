@@ -5,6 +5,8 @@ import { ServiceData } from './ServiceData'
 import myImage from './../assets/images/myImage.png'
 import {LiaTimesSolid} from 'react-icons/lia'
 import AccountReconciliation from './../assets/images/AccountReconciliation.jpeg'
+import AOS from "aos"
+import "aos/dist/aos.css";
 
 export const Services = () => {
    const [popUp, setPopUp] = useState([]);
@@ -21,8 +23,15 @@ export const Services = () => {
     BODY.style.overflow = popUpToggle? 'hidden' : 'auto';
    }, [popUpToggle])
 
+
+   useEffect(() => {
+    AOS.init({
+      duration: 1500
+    })    
+  },[])
+
   return (
-    <div id='services' className='sm:mx-10  p-4 sm:py-16 '>
+    <div data-aos="fade-up" data- id='services' className='sm:mx-10  p-4 sm:py-16 '>
         <ul class="capitalize p-5">
             <li class="text-lg font-bold uppercase ">-services</li>
             <li class="font-extrabold md:text-4xl text-3xl py-2 text-primary">my specializations</li>
