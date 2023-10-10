@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import { SiGmail } from 'react-icons/si'
-import {FaFacebookF, FaLinkedinIn,FaWhatsapp,FaLaptopCode,FaLink} from 'react-icons/fa'
+import {FaFacebookF, FaLinkedinIn,FaWhatsapp} from 'react-icons/fa'
 import AOS from "aos"
 import "aos/dist/aos.css";
 
@@ -26,9 +26,9 @@ export const Contact = () => {
                         <p class="py-2 tracking-wide">I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime at 24/7</p>
                         <div className='p-3'>
                             <p className="flex text-primary">
-                                <a href="http://"><FaFacebookF size={30} className="text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                                <a href="https://www.facebook.com/cynthiachibugoayoka" target='_blank'><FaFacebookF size={30} className="text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                                 <a href="https://linkedin.com/in/cynthia-chibugo-88092b139" target='_blank'><FaLinkedinIn size={30} className="mx-3 text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                                <a href="mailto:"><SiGmail size={30} className="mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                                <a href="mailto:cynthiaayoka23@gmail.com" target='_blank'><SiGmail size={30} className="mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                                 <a href="http://wa.me/+2347034798736" target='_blank'><FaWhatsapp size={30} className="text-[#319852] mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                             </p>
                         </div>

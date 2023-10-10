@@ -48,9 +48,9 @@ export const Navbar = () => {
             </ul>
             <div className='text-center'>
                 <p className="lg:flex hidden text-primary">
-                    <a href="http://"><FaFacebookF size={20} className=" mx-3 text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="https://www.facebook.com/cynthiachibugoayoka"><FaFacebookF size={20} className=" mx-3 text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="https://linkedin.com/in/cynthia-chibugo-88092b139" target='_blank'><FaLinkedinIn size={20} className="mx-3 text-[#314198] hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
-                    <a href="mailto:"><SiGmail size={20} className="mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
+                    <a href="mailto:cynthiaayoka23@gmail.com"><SiGmail size={20} className="mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                     <a href="http://wa.me/+2347034798736" target='_blank'><FaWhatsapp size={20} className="text-[#319852] mx-3 hover:scale-110 duration-200 ease-in cursor-pointer"/></a>
                 </p>
             </div>

@@ -1,10 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import {FiExternalLink} from 'react-icons/fi'
-import services from './../assets/images/services.jpg'
 import { ServiceData } from './ServiceData' 
-import myImage from './../assets/images/myImage.png'
 import {LiaTimesSolid} from 'react-icons/lia'
-import AccountReconciliation from './../assets/images/AccountReconciliation.jpeg'
 import AOS from "aos"
 import "aos/dist/aos.css";
 
