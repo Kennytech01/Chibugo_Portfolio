@@ -15,16 +15,16 @@ export const Footer = () => {
                 <p className='font-medium tracking-widest p-4'>Copyright © 2023 - All right reserved by <span className='font-black text-primary text-lg'>Chibugo Cynthia .A</span> </p>
             </div>
             <div className="flex md:justify-between sm:justify-evenly justify-center py-4">
-                <a href="http://"><FaFacebookF size={20} 
+                <a href="https://www.facebook.com/cynthiachibugoayoka" target='_blank'><FaFacebookF size={20} 
                     className=" hover:scale-110 duration-500 transition-all ease-in cursor-pointer mx-2"/>
                 </a>
-                <a href="https://linkedin.com/in/cynthia-chibugo-88092b139"><FaLinkedin size={20} 
+                <a href="https://linkedin.com/in/cynthia-chibugo-88092b139" target='_blank' ><FaLinkedin size={20} 
                     className=" hover:scale-110 duration-500 transition-all ease-in cursor-pointer mx-2"/>
                 </a>
-                <a href="mailto:"><SiGmail size={20} 
+                <a href="mailto:cynthiaayoka23@gmail.com" target='_blank'><SiGmail size={20} 
                     className=" hover:scale-110 duration-500 transition-all ease-in cursor-pointer mx-2"/>
                 </a>
-                <a href="http://wa.me/+2347034798736"><FaWhatsapp size={20} 
+                <a href="http://wa.me/+2347034798736" target='_blank'><FaWhatsapp size={20} 
                     className=" hover:scale-110 duration-500 transition-all ease-in cursor-pointer mx-2"/>
                 </a>
             </div>
