@@ -10,7 +10,7 @@ export const ServiceData = [
         number: '01',
         title: 'Account Reconciliation/ Audit',
         Image: `${AccountReconciliation}`,
-        duty: 'Create guidelines, goals, checkpoints, and objectives for employees to improve productivity while...',
+        duty: 'Ensure that financial statements are materially accurate and internal control is working to prevent fraud and errors.',
         details: 'Companies need to reconcile their accounts to prevent balance sheet errors, check for possible fraud, and avoid adverse opinions from auditors. Companies generally perform balance sheet reconciliations each month, after the books are closed for the prior month. This type of account reconciliation involves reviewing all balance sheet accounts to make sure that transactions were appropriately booked into the correct general ledger account. It may be necessary to adjust some journal entries if they were booked incorrectly. ',
         link: "read more"
     },
@@ -26,7 +26,7 @@ export const ServiceData = [
         number: '03',
         title: 'Team Management',
         Image: `${TeamManagment}`,
-        duty: 'Create guidelines, goals, checkpoints, and objectives for employees to improve productivity while...',
+        duty: 'Create guidelines, goals, checkpoints, and objectives for employees to improve productivity.',
         details: 'Team management is the ability of an individual or an organization to administer and coordinate a group of individuals to perform a task. Team management involves teamwork, communication, objective setting and performance appraisals. Moreover, team management is the capability to identify problems and resolve conflicts within a team. There are various methods and leadership styles a team manager can take to increase personnel productivity and build an effective team',
         link: "read more"
     },
@@ -42,7 +42,7 @@ export const ServiceData = [
         number: '05',
         title: 'Cost Accounting & sales Management',
         Image: `${costAccounting}`,
-        duty: 'Developing and implementing new cost accounting procedures within your company.This might include anything from...',
+        duty: 'Developing and implementing new cost accounting procedures within your company.',
         details: 'Cost accounting is a type of managerial accounting that focuses on the cost structure of a business. It assigns costs to products, services, processes, projects and related activities. Through cost accounting, you can home in on where your business is spending its money, how much it earns and where you might be losing money. Managers and employees may use cost accounting internally to improve your business’s profitability and efficiency.',
         link: "read more"
     },
@@ -50,7 +50,7 @@ export const ServiceData = [
         number: '06',
         title: 'analytical skills & financial reporting',
         Image: `${AnalyticalSkill}`,
-        duty: 'Monitor, review and analyze territory monthly financial packages and prepare required reconciliations and adjustments, including...',
+        duty: 'Monitor, review and analyze territory monthly financial packages and prepare required reconciliations and adjustments.',
         details: 'Analytical skills are the ability to collect information and to thoroughly analyze that information. They refer to problem-solving skills and making a decision based on insights drawn from the collected information Analytical skills are used when detecting patterns, brainstorming ideas, observing data, collecting data, interpreting data, integrating new information, synthesizing information, and making decisions based on the situation.',
         link: "read more"
     },

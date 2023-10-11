@@ -11,7 +11,6 @@ import { Navbar } from "./Components/Navbar"
 export const App = () => {
   return (
     <div className="body">
-      {/* <Sidenav/> */}
       <Navbar/>
       <Home/>
       <About/>
